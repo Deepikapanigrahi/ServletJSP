@@ -1,0 +1,35 @@
+<web-app>
+	<servlet>
+	<servlet-name>PatientRegister</servlet-name>
+	<servlet-class>com.ex.PatientRegister</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name>PatientRegister</servlet-name>
+	<url-pattern>/PatientRegister</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>plogin</servlet-name>
+	<servlet-class>com.ex.PatientLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name>plogin</servlet-name>
+	<url-pattern>/patientlogin</url-pattern>
+	</servlet-mapping>
+	
+
+
+<servlet>
+	<servlet-name>dregister</servlet-name>
+	<servlet-class>com.ex.DoctorRegister</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name>dregister</servlet-name>
+	<url-pattern>/DoctorRegister</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
